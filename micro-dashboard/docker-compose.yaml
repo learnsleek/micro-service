@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: spring_boot
+    volumes:
+     - "./logfiles:/logs"
+    restart: always
+    ports:
+     - "8081:8080"
