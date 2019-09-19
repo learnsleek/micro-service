@@ -16,6 +16,7 @@ public class HomeController {
 
     @RequestMapping({ "/hello" })
     public String hello() {
+        logger.trace("From Hello!!");
         return "Hello World";
     }
 

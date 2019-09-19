@@ -1,6 +1,6 @@
 package com.learnsleek.dto;
 
-public class PolicyDto {
+public class PolicyDto extends RequestDTO {
     private String policyNumber;
 
     public String getPolicyNumber() {
