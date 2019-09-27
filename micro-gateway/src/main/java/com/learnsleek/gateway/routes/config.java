@@ -16,6 +16,8 @@ public class config {
     public RouteLocator gatewayRoutes(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route(r -> r.path("/entity/**")
+                        .filters(f-> f.addRequestHeader(
+                                "Test", "Added New Header"))
                         .uri("lb://core-service/entity/")
                         .id("core-service"))
                 .build();

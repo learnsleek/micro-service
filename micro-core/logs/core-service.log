@@ -11124,3 +11124,147 @@ Using generated security password: 218db660-e1ad-4a83-8765-263cdc24bf49
 2019-Sep-27 13:29:11.030 INFO  [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-Sep-27 13:29:11.031 INFO  [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2019-Sep-27 13:29:11.090 INFO  [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 59 ms
+2019-Sep-27 13:33:41.916 INFO  [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CORE-SERVICE with eureka with status DOWN
+2019-Sep-27 13:33:41.916 WARN  [Thread-6] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569571421916, current=DOWN, previous=UP]
+2019-Sep-27 13:33:41.919 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083: registering service...
+2019-Sep-27 13:33:41.930 INFO  [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Sep-27 13:33:41.956 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - registration status: 204
+2019-Sep-27 13:33:42.012 INFO  [Thread-6] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Sep-27 13:33:45.015 INFO  [Thread-6] c.n.d.DiscoveryClient - Unregistering ...
+2019-Sep-27 13:33:45.084 INFO  [Thread-6] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - deregister  status: 200
+2019-Sep-27 13:33:45.108 INFO  [Thread-6] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Sep-27 15:22:25.717 INFO  [main] c.l.a.AuthApplication - No active profile set, falling back to default profiles: default
+2019-Sep-27 15:22:36.278 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Sep-27 15:22:36.298 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-Sep-27 15:22:37.796 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=ba7231b4-728a-3699-8736-528f43bea89a
+2019-Sep-27 15:22:40.592 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$4f3a2782] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:22:43.990 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:22:44.290 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@570ba13' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:22:44.302 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$740eca34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:22:45.883 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:22:45.959 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d2a66245] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:22:48.655 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2019-Sep-27 15:22:48.994 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Sep-27 15:22:48.995 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-Sep-27 15:23:04.840 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Sep-27 15:23:04.841 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 38768 ms
+2019-Sep-27 15:23:08.675 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Sep-27 15:23:08.676 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Sep-27 15:23:08.931 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@48f2054d
+2019-Sep-27 15:23:53.621 INFO  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 07f20f0c-857e-43c5-8f4a-1918f2f08e08
+
+2019-Sep-27 15:24:28.599 INFO  [main] o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35ab4260, org.springframework.security.web.context.SecurityContextPersistenceFilter@23ec2bdc, org.springframework.security.web.header.HeaderWriterFilter@3ea84e01, org.springframework.security.web.authentication.logout.LogoutFilter@3b33fff9, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@595ec862, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d132bb6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c011855, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76134b9b, org.springframework.security.web.session.SessionManagementFilter@16e907b6, org.springframework.security.web.access.ExceptionTranslationFilter@7645b7d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b09d1c3]
+2019-Sep-27 15:24:31.243 INFO  [main] o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d585fb, org.springframework.security.web.context.SecurityContextPersistenceFilter@1da53f4f, org.springframework.security.web.header.HeaderWriterFilter@29f95272, org.springframework.security.web.csrf.CsrfFilter@7573c7b5, org.springframework.security.web.authentication.logout.LogoutFilter@b841713, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e7eba9f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2df71be0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1884e671, org.springframework.security.web.session.SessionManagementFilter@c754401, org.springframework.security.web.access.ExceptionTranslationFilter@97b5e6a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e886caf]
+2019-Sep-27 15:24:34.037 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Sep-27 15:24:34.037 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Sep-27 15:24:44.044 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Sep-27 15:24:57.549 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Sep-27 15:24:59.363 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Sep-27 15:25:01.565 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Sep-27 15:25:24.285 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Sep-27 15:25:24.286 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Sep-27 15:25:29.659 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Sep-27 15:25:29.660 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Sep-27 15:25:32.322 INFO  [main] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-Sep-27 15:25:32.605 INFO  [main] c.n.d.DiscoveryClient - Disable delta property : false
+2019-Sep-27 15:25:32.606 INFO  [main] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-Sep-27 15:25:32.606 INFO  [main] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-Sep-27 15:25:32.606 INFO  [main] c.n.d.DiscoveryClient - Application is null : false
+2019-Sep-27 15:25:32.607 INFO  [main] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-Sep-27 15:25:32.607 INFO  [main] c.n.d.DiscoveryClient - Application version is -1: true
+2019-Sep-27 15:25:32.608 INFO  [main] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-Sep-27 15:25:39.550 INFO  [main] c.n.d.DiscoveryClient - The response status is 200
+2019-Sep-27 15:25:39.822 INFO  [main] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-Sep-27 15:25:40.286 INFO  [main] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-Sep-27 15:25:40.598 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1569578140291 with initial instances count: 3
+2019-Sep-27 15:25:40.613 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application CORE-SERVICE with eureka with status UP
+2019-Sep-27 15:25:40.614 INFO  [main] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569578140614, current=UP, previous=STARTING]
+2019-Sep-27 15:25:40.631 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083: registering service...
+2019-Sep-27 15:25:42.353 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - registration status: 204
+2019-Sep-27 15:25:46.319 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+2019-Sep-27 15:25:46.321 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8083
+2019-Sep-27 15:25:46.683 INFO  [main] c.l.a.AuthApplication - Started AuthApplication in 219.957 seconds (JVM running for 246.946)
+2019-Sep-27 15:25:57.335 INFO  [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Sep-27 15:25:57.336 INFO  [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Sep-27 15:25:59.858 INFO  [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 2522 ms
+2019-Sep-27 15:30:32.613 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-Sep-27 15:32:10.371 INFO  [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CORE-SERVICE with eureka with status DOWN
+2019-Sep-27 15:32:10.372 WARN  [Thread-6] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569578530372, current=DOWN, previous=UP]
+2019-Sep-27 15:32:10.372 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083: registering service...
+2019-Sep-27 15:32:10.384 INFO  [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Sep-27 15:32:10.391 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - registration status: 204
+2019-Sep-27 15:32:10.775 INFO  [Thread-6] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Sep-27 15:32:13.776 INFO  [Thread-6] c.n.d.DiscoveryClient - Unregistering ...
+2019-Sep-27 15:32:13.834 INFO  [Thread-6] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - deregister  status: 200
+2019-Sep-27 15:32:13.891 INFO  [Thread-6] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Sep-27 15:37:16.655 INFO  [main] c.l.a.AuthApplication - No active profile set, falling back to default profiles: default
+2019-Sep-27 15:37:23.221 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Sep-27 15:37:23.299 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-Sep-27 15:37:24.915 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=ba7231b4-728a-3699-8736-528f43bea89a
+2019-Sep-27 15:37:25.911 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$78d94d6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:37:26.379 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:37:26.599 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@65c5bf0e' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:37:26.610 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$9dadf01c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:37:26.625 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:37:26.661 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fc45882d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Sep-27 15:37:28.551 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+2019-Sep-27 15:37:28.749 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Sep-27 15:37:28.749 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-Sep-27 15:37:29.583 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Sep-27 15:37:29.584 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 12557 ms
+2019-Sep-27 15:37:30.110 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Sep-27 15:37:30.111 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Sep-27 15:37:30.205 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6ce26986
+2019-Sep-27 15:38:37.691 INFO  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 139f098b-725a-4ccb-a7d1-8536f58965e9
+
+2019-Sep-27 15:39:17.810 INFO  [main] o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5feb82b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c50cd7d, org.springframework.security.web.header.HeaderWriterFilter@83ebdc5, org.springframework.security.web.authentication.logout.LogoutFilter@279c4e3b, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5af38a4a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a4930cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ffa91dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d38db6f, org.springframework.security.web.session.SessionManagementFilter@e49437, org.springframework.security.web.access.ExceptionTranslationFilter@ff2266c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@204b0f07]
+2019-Sep-27 15:39:22.300 INFO  [main] o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@717a8a76, org.springframework.security.web.context.SecurityContextPersistenceFilter@4468fda8, org.springframework.security.web.header.HeaderWriterFilter@47162173, org.springframework.security.web.csrf.CsrfFilter@857f74a, org.springframework.security.web.authentication.logout.LogoutFilter@6fd7aba8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fc1e4fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29aa4bc9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62de73eb, org.springframework.security.web.session.SessionManagementFilter@3a4f8e8a, org.springframework.security.web.access.ExceptionTranslationFilter@51e94b7d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73da7f08]
+2019-Sep-27 15:39:29.917 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Sep-27 15:39:29.934 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Sep-27 15:40:53.421 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Sep-27 15:41:55.137 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Sep-27 15:41:55.557 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Sep-27 15:41:55.780 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Sep-27 15:41:57.535 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Sep-27 15:41:57.535 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Sep-27 15:41:58.060 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Sep-27 15:41:58.060 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Sep-27 15:41:59.863 INFO  [main] c.n.d.s.r.a.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-Sep-27 15:42:00.349 INFO  [main] c.n.d.DiscoveryClient - Disable delta property : false
+2019-Sep-27 15:42:00.349 INFO  [main] c.n.d.DiscoveryClient - Single vip registry refresh property : null
+2019-Sep-27 15:42:00.350 INFO  [main] c.n.d.DiscoveryClient - Force full registry fetch : false
+2019-Sep-27 15:42:00.350 INFO  [main] c.n.d.DiscoveryClient - Application is null : false
+2019-Sep-27 15:42:00.350 INFO  [main] c.n.d.DiscoveryClient - Registered Applications size is zero : true
+2019-Sep-27 15:42:00.350 INFO  [main] c.n.d.DiscoveryClient - Application version is -1: true
+2019-Sep-27 15:42:00.352 INFO  [main] c.n.d.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-Sep-27 15:42:01.210 INFO  [main] c.n.d.DiscoveryClient - The response status is 200
+2019-Sep-27 15:42:01.226 INFO  [main] c.n.d.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-Sep-27 15:42:01.233 INFO  [main] c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-Sep-27 15:42:01.248 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1569579121241 with initial instances count: 3
+2019-Sep-27 15:42:01.268 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application CORE-SERVICE with eureka with status UP
+2019-Sep-27 15:42:01.269 INFO  [main] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569579121269, current=UP, previous=STARTING]
+2019-Sep-27 15:42:01.274 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083: registering service...
+2019-Sep-27 15:42:03.783 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - registration status: 204
+2019-Sep-27 15:42:03.920 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+2019-Sep-27 15:42:03.923 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8083
+2019-Sep-27 15:42:04.022 INFO  [main] c.l.a.AuthApplication - Started AuthApplication in 295.653 seconds (JVM running for 305.441)
+2019-Sep-27 15:42:56.651 INFO  [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Sep-27 15:42:56.652 INFO  [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Sep-27 15:42:56.708 INFO  [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 56 ms
+2019-Sep-27 15:42:57.234 WARN  [http-nio-8083-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Missing request header 'Test' for method parameter of type String]
+2019-Sep-27 15:44:13.051 WARN  [http-nio-8083-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Missing request header 'Test' for method parameter of type String]
+2019-Sep-27 15:44:29.844 INFO  [http-nio-8083-exec-3] c.l.c.EntityController - LOG Header :: 
+2019-Sep-27 15:45:09.661 INFO  [http-nio-8083-exec-4] c.l.c.EntityController - LOG Header :: 
+2019-Sep-27 15:45:26.928 INFO  [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CORE-SERVICE with eureka with status DOWN
+2019-Sep-27 15:45:26.928 WARN  [Thread-6] c.n.d.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569579326928, current=DOWN, previous=UP]
+2019-Sep-27 15:45:26.928 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083: registering service...
+2019-Sep-27 15:45:26.938 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - registration status: 204
+2019-Sep-27 15:45:27.010 INFO  [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Sep-27 15:45:27.256 INFO  [Thread-6] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Sep-27 15:45:30.258 INFO  [Thread-6] c.n.d.DiscoveryClient - Unregistering ...
+2019-Sep-27 15:45:30.268 INFO  [Thread-6] c.n.d.DiscoveryClient - DiscoveryClient_CORE-SERVICE/172.16.28.18:core-service:8083 - deregister  status: 200
+2019-Sep-27 15:45:30.317 INFO  [Thread-6] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient

@@ -65,8 +65,9 @@ public class EntityController {
 
 
     @GetMapping(path="/get1", produces = "application/json")
-    public ResponseEntity<PolicyDto> authNonSec()
+    public ResponseEntity<PolicyDto> authNonSec(@RequestHeader("Test") String headers)
     {
+        logger.info("LOG Header :: " , headers );
         PolicyDto policy = new PolicyDto();
         policy.setPolicyNumber("AM1020");
         return new ResponseEntity<PolicyDto>(policy, HttpStatus.OK);
