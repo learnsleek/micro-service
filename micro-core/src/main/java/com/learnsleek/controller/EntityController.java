@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -54,7 +55,17 @@ public class EntityController {
 
 
     @GetMapping(path="/get", produces = "application/json")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<PolicyDto> auth()
+    {
+        PolicyDto policy = new PolicyDto();
+        policy.setPolicyNumber("AM1020");
+        return new ResponseEntity<PolicyDto>(policy, HttpStatus.OK);
+    }
+
+
+    @GetMapping(path="/get1", produces = "application/json")
+    public ResponseEntity<PolicyDto> authNonSec()
     {
         PolicyDto policy = new PolicyDto();
         policy.setPolicyNumber("AM1020");
