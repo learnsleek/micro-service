@@ -3,12 +3,14 @@ package com.learnsleek.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 
 @Component
-public class InitConfig {
+public class Util {
 
+    @LoadBalanced
     @Bean
-    public RestTemplate restTemplate(){
+    RestTemplate restTemplate() {
         return new RestTemplate();
     }
 }
