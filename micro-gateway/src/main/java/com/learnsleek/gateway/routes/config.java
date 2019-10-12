@@ -7,19 +7,20 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class config {
-    //spring.cloud.gateway.routes[0].id=/entity
-   //spring.cloud.gateway.routes[0].uri=lb://core-service/entity/
-   //spring.cloud.gateway.routes[0].predicates[0]=Path=/entity/**
-
-
     @Bean
     public RouteLocator gatewayRoutes(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route(r -> r.path("/entity/**")
                         .filters(f-> f.addRequestHeader(
-                                "Test", "Added New Header"))
-                        .uri("lb://core-service/entity/")
-                        .id("core-service"))
+                                "Test", "Added New Header")
+                                .hystrix(config -> config.setName("entity"))
+                        )
+                        .uri("lb://core-service/")
+                        .id("core-entity"))
+                .route(r -> r.path("/core/**")
+                        .filters(f -> f.hystrix(config -> config.setName("core")))
+                        .uri("lb://func-service/")
+                        .id("func-service"))
                 .build();
     }
 
