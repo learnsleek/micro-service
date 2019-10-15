@@ -1,5 +1,6 @@
 package com.learnsleek.config;
 
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
@@ -11,4 +12,5 @@ public class config {
     RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
+
 }

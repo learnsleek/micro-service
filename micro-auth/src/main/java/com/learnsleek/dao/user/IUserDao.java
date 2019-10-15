@@ -4,7 +4,7 @@ import com.learnsleek.model.UserEntity;
 
 public interface IUserDao {
 
-    public UserEntity getUserDetails(String emailId);
+    public UserEntity getUserDetails(String username);
 }
 
 

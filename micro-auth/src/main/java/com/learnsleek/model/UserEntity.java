@@ -10,6 +10,7 @@ public class UserEntity {
     private String id;
     private String name;
     private String emailId;
+    private String username;
     private String password;
     private Collection<GrantedAuthority> grantedAuthoritiesList = new ArrayList<>();
 
@@ -40,7 +41,17 @@ public class UserEntity {
     public Collection<GrantedAuthority> getGrantedAuthoritiesList() {
         return grantedAuthoritiesList;
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
     public void setGrantedAuthoritiesList(Collection<GrantedAuthority> grantedAuthoritiesList) {
         this.grantedAuthoritiesList = grantedAuthoritiesList;
     }
+
 }

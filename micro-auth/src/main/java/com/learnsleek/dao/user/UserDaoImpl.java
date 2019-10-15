@@ -20,15 +20,16 @@ public class UserDaoImpl implements IUserDao {
     JdbcTemplate jdbcTemplate;
 
     @Override
-    public UserEntity getUserDetails(String emailId) {
+    public UserEntity getUserDetails(String username) {
 
         Collection<GrantedAuthority> grantedAuthoritiesList = new ArrayList<>();
 
-        List<UserEntity> list = jdbcTemplate.query("SELECT * FROM USER WHERE EMAIL_ID=?", new String[] { emailId },
+        List<UserEntity> list = jdbcTemplate.query("SELECT * FROM USERS WHERE USERNAME=?", new String[] { username },
                 (ResultSet rs, int rowNum) -> {
                     UserEntity user = new UserEntity();
-                    user.setEmailId(emailId);
+                    user.setEmailId(username);
                     user.setId(rs.getString("ID"));
+                    user.setUsername(rs.getString("USERNAME"));
                     user.setName(rs.getString("NAME"));
                     user.setPassword(rs.getString("PASSWORD"));
                     return user;
@@ -42,8 +43,8 @@ public class UserDaoImpl implements IUserDao {
                             "INNER JOIN ASSIGN_PERMISSION_TO_ROLE P_R ON P.ID=P_R.PERMISSION_ID\r\n" +
                             "INNER JOIN ROLE R ON R.ID=P_R.ROLE_ID \r\n" +
                             "INNER JOIN ASSIGN_USER_TO_ROLE U_R ON U_R.ROLE_ID=R.ID\r\n" +
-                            "INNER JOIN USER U ON U.ID=U_R.USER_ID\r\n" +
-                            "WHERE U.EMAIL_ID=?", new String[] { userEntity.getEmailId() },
+                            "INNER JOIN USERS U ON U.ID=U_R.USER_ID\r\n" +
+                            "WHERE U.USERNAME=?", new String[] { userEntity.getUsername() },
                     (ResultSet rs, int rowNum) -> {
                         return "ROLE_" + rs.getString("PERMISSION_NAME");
                     });
