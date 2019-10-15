@@ -5130,3 +5130,27 @@ java.lang.NullPointerException: null
 2019-Oct-15 19:21:18.340 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
 2019-Oct-15 19:21:18.340 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
 2019-Oct-15 19:21:18.340 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:21:44.454 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:21:44.455 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:21:44.510 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:21:44.510 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:21:44.510 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:21:44.510 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:21:48.342 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:21:48.343 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:21:48.343 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:21:48.343 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:21:48.343 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:21:48.343 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:22:14.456 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:22:14.456 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:22:14.456 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:22:14.457 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:22:14.457 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:22:14.457 INFO  [NFLoadBalancer-PingTimer-func-service] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:22:18.345 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:22:18.346 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:22:18.346 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:22:18.346 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
+2019-Oct-15 19:22:18.346 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - I/O exception (java.net.SocketException) caught when connecting to {}->http://172.16.28.18:8085: Network is unreachable (connect failed)
+2019-Oct-15 19:22:18.346 INFO  [PollingServerListUpdater-0] o.a.h.i.c.DefaultHttpClient - Retrying connect to {}->http://172.16.28.18:8085
