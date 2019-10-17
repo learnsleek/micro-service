@@ -1,0 +1,515 @@
+2019-Oct-16 03:08:13.155 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 03:08:13.169 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 03:08:13.296 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 03:08:18.964 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 03:08:21.160 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 03:08:22.334 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67f61cee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 03:08:25.094 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 03:08:25.320 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 03:08:25.322 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 03:08:25.375 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 03:08:25.853 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 03:08:25.855 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 12401 ms
+2019-Oct-16 03:08:26.706 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:08:26.716 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:08:26.873 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1c852c0f
+2019-Oct-16 03:08:30.966 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 03:08:31.521 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 03:08:31.527 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 03:08:32.797 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 03:08:32.798 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 03:08:35.516 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:08:35.516 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:08:37.320 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:08:40.956 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 03:08:41.236 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 03:08:41.237 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 03:08:41.297 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571195321294 with initial instances count: 0
+2019-Oct-16 03:08:41.840 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 03:08:41.919 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:08:42.090 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 03:08:42.101 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 03:08:42.208 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 03:08:42.777 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 03:08:42.803 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 03:08:42.824 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 03:08:42.826 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 03:08:42.918 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 03:08:42.921 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 03:08:42.925 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 03:08:42.925 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 03:08:42.926 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 03:08:43.018 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 03:08:43.084 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 03:08:43.104 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 03:08:43.150 INFO  [main] c.l.a.AppApplication - Started AppApplication in 38.307 seconds (JVM running for 41.494)
+2019-Oct-16 03:09:42.940 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:09:45.053 INFO  [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application DISCOVERY-SERVICE with eureka with status DOWN
+2019-Oct-16 03:09:45.097 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-Oct-16 03:09:45.109 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shut down
+2019-Oct-16 03:09:45.125 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:09:45.179 INFO  [Thread-15] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Oct-16 03:09:45.180 INFO  [Thread-15] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Oct-16 03:11:52.754 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 03:11:52.754 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 03:11:52.844 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 03:11:57.275 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 03:11:58.619 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 03:11:59.367 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1e9646aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 03:12:01.823 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 03:12:02.044 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 03:12:02.049 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 03:12:02.091 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 03:12:02.617 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 03:12:02.618 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 9666 ms
+2019-Oct-16 03:12:03.257 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:12:03.258 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:12:03.423 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@37fb0bed
+2019-Oct-16 03:12:06.696 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 03:12:07.184 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 03:12:07.189 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 03:12:08.227 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 03:12:08.229 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 03:12:10.026 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:12:10.027 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:12:10.743 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:12:13.783 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 03:12:13.969 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 03:12:13.970 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 03:12:14.014 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571195534011 with initial instances count: 0
+2019-Oct-16 03:12:14.405 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 03:12:14.432 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:12:14.562 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 03:12:14.582 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 03:12:14.722 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 03:12:15.312 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 03:12:15.371 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 03:12:15.386 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 03:12:15.388 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 03:12:15.511 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 03:12:15.512 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 03:12:15.513 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 03:12:15.513 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 03:12:15.513 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 03:12:15.586 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 03:12:15.709 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 03:12:15.721 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 03:12:15.737 INFO  [main] c.l.a.AppApplication - Started AppApplication in 28.125 seconds (JVM running for 29.765)
+2019-Oct-16 03:13:15.516 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:14:15.516 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:15:15.516 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:15:51.462 INFO  [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application DISCOVERY-SERVICE with eureka with status DOWN
+2019-Oct-16 03:15:51.722 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-Oct-16 03:15:51.854 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shut down
+2019-Oct-16 03:15:52.033 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:15:52.393 INFO  [Thread-15] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Oct-16 03:15:52.394 INFO  [Thread-15] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Oct-16 03:16:25.814 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 03:16:25.814 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 03:16:25.864 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 03:16:27.952 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 03:16:28.740 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 03:16:29.179 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a88d0b34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 03:16:30.600 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 03:16:30.763 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 03:16:30.768 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 03:16:30.803 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 03:16:31.049 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 03:16:31.051 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 5142 ms
+2019-Oct-16 03:16:31.447 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:16:31.448 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:16:31.520 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@f14a7d4
+2019-Oct-16 03:16:33.080 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 03:16:33.273 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 03:16:33.277 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 03:16:33.716 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 03:16:33.717 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 03:16:34.545 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:16:34.546 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:16:35.017 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:16:36.470 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 03:16:36.579 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 03:16:36.580 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 03:16:36.612 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571195796609 with initial instances count: 0
+2019-Oct-16 03:16:36.740 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 03:16:36.748 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:16:36.802 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 03:16:36.805 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 03:16:36.838 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 03:16:37.079 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 03:16:37.094 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 03:16:37.115 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 03:16:37.117 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 03:16:37.178 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 03:16:37.180 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 03:16:37.180 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 03:16:37.180 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 03:16:37.181 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 03:16:37.193 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 03:16:37.195 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 03:16:37.199 INFO  [main] c.l.a.AppApplication - Started AppApplication in 14.439 seconds (JVM running for 15.714)
+2019-Oct-16 03:16:37.214 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 03:17:00.364 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Oct-16 03:17:00.364 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Oct-16 03:17:00.415 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 50 ms
+2019-Oct-16 03:17:01.223 INFO  [http-nio-8081-exec-4] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/29989c846880:auth-service:8082 with status UP (replication=false)
+2019-Oct-16 03:17:37.184 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:18:47.250 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 03:18:47.252 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 03:18:47.398 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 03:18:51.321 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 03:18:53.312 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 03:18:54.182 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$469fcdad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 03:18:56.509 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 03:18:56.730 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 03:18:56.733 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 03:18:56.796 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 03:18:57.115 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 03:18:57.120 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 9626 ms
+2019-Oct-16 03:18:57.776 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:18:57.776 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:18:57.855 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@13b3d178
+2019-Oct-16 03:19:00.952 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 03:19:01.503 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 03:19:01.516 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 03:19:02.430 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 03:19:02.432 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 03:19:03.859 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:19:03.860 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:19:05.013 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:19:08.083 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 03:19:08.277 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 03:19:08.279 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 03:19:08.360 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571195948358 with initial instances count: 0
+2019-Oct-16 03:19:08.516 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 03:19:08.523 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:19:08.604 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 03:19:08.632 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 03:19:08.697 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 03:19:09.169 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 03:19:09.191 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 03:19:09.239 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 03:19:09.242 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 03:19:09.341 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 03:19:09.347 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 03:19:09.348 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 03:19:09.348 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 03:19:09.349 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 03:19:09.484 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 03:19:09.560 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 03:19:09.567 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 03:19:09.582 INFO  [main] c.l.a.AppApplication - Started AppApplication in 27.197 seconds (JVM running for 28.868)
+2019-Oct-16 03:19:15.377 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Oct-16 03:19:15.378 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Oct-16 03:19:15.407 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 29 ms
+2019-Oct-16 03:19:16.403 INFO  [http-nio-8081-exec-2] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/5087338d4f77:auth-service:8082 with status UP (replication=false)
+2019-Oct-16 03:20:09.351 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:21:09.351 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:22:09.351 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:22:46.570 INFO  [http-nio-8081-exec-2] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/5087338d4f77:auth-service:8082 with status DOWN (replication=false)
+2019-Oct-16 03:22:49.632 INFO  [http-nio-8081-exec-3] c.n.e.r.AbstractInstanceRegistry - Cancelled instance AUTH-SERVICE/5087338d4f77:auth-service:8082 (replication=false)
+2019-Oct-16 03:22:51.154 INFO  [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application DISCOVERY-SERVICE with eureka with status DOWN
+2019-Oct-16 03:22:51.163 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-Oct-16 03:22:51.177 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shut down
+2019-Oct-16 03:22:51.185 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:22:51.196 INFO  [Thread-15] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Oct-16 03:22:51.196 INFO  [Thread-15] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Oct-16 03:23:06.604 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 03:23:06.605 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 03:23:06.731 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 03:23:10.888 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 03:23:12.475 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 03:23:13.288 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8e7ea4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 03:23:16.002 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 03:23:16.240 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 03:23:16.241 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 03:23:16.315 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 03:23:16.606 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 03:23:16.609 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 9741 ms
+2019-Oct-16 03:23:17.131 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:23:17.133 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:23:17.242 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@266374ef
+2019-Oct-16 03:23:20.333 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 03:23:20.776 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 03:23:20.781 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 03:23:21.469 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 03:23:21.471 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 03:23:23.626 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:23:23.626 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:23:24.523 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:23:27.503 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 03:23:27.811 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 03:23:27.811 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 03:23:27.928 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571196207911 with initial instances count: 0
+2019-Oct-16 03:23:28.221 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 03:23:28.229 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:23:28.446 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 03:23:28.457 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 03:23:28.580 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 03:23:29.088 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 03:23:29.114 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 03:23:29.136 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 03:23:29.139 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 03:23:29.406 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 03:23:29.422 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 03:23:29.424 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 03:23:29.435 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 03:23:29.441 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 03:23:29.693 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 03:23:29.716 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 03:23:29.754 INFO  [main] c.l.a.AppApplication - Started AppApplication in 28.79 seconds (JVM running for 30.734)
+2019-Oct-16 03:23:29.754 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 03:23:35.222 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Oct-16 03:23:35.224 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Oct-16 03:23:35.252 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 27 ms
+2019-Oct-16 03:23:36.391 INFO  [http-nio-8081-exec-2] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/5087338d4f77:auth-service:8082 with status UP (replication=false)
+2019-Oct-16 03:24:29.525 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:25:29.524 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:26:14.063 INFO  [http-nio-8081-exec-4] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/5087338d4f77:auth-service:8082 with status DOWN (replication=false)
+2019-Oct-16 03:26:17.108 INFO  [http-nio-8081-exec-5] c.n.e.r.AbstractInstanceRegistry - Cancelled instance AUTH-SERVICE/5087338d4f77:auth-service:8082 (replication=false)
+2019-Oct-16 03:26:18.563 INFO  [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application DISCOVERY-SERVICE with eureka with status DOWN
+2019-Oct-16 03:26:18.571 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-Oct-16 03:26:18.576 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shut down
+2019-Oct-16 03:26:18.587 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:26:18.598 INFO  [Thread-15] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Oct-16 03:26:18.600 INFO  [Thread-15] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Oct-16 03:27:22.060 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 03:27:22.061 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 03:27:22.181 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 03:27:27.065 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 03:27:28.572 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 03:27:29.206 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1ca5fd46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 03:27:31.035 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 03:27:31.226 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 03:27:31.231 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 03:27:31.307 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 03:27:31.663 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 03:27:31.664 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 9318 ms
+2019-Oct-16 03:27:32.061 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:27:32.077 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:27:32.214 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1787bc24
+2019-Oct-16 03:27:35.423 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 03:27:35.944 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 03:27:35.950 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 03:27:37.190 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 03:27:37.191 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 03:27:39.298 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 03:27:39.301 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 03:27:40.331 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 03:27:43.344 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 03:27:43.459 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 03:27:43.460 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 03:27:43.492 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571196463489 with initial instances count: 0
+2019-Oct-16 03:27:43.716 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 03:27:43.742 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:27:43.848 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 03:27:43.851 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 03:27:43.913 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 03:27:44.341 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 03:27:44.389 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 03:27:44.459 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 03:27:44.462 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 03:27:44.683 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 03:27:44.684 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 03:27:44.685 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 03:27:44.685 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 03:27:44.685 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 03:27:44.734 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 03:27:44.763 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 03:27:44.783 INFO  [main] c.l.a.AppApplication - Started AppApplication in 27.087 seconds (JVM running for 28.512)
+2019-Oct-16 03:27:44.874 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 03:27:52.437 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Oct-16 03:27:52.438 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Oct-16 03:27:52.496 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 57 ms
+2019-Oct-16 03:27:53.623 INFO  [http-nio-8081-exec-2] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/8b7bfb092608:auth-service:8082 with status UP (replication=false)
+2019-Oct-16 03:28:44.751 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:29:44.751 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:30:44.751 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:31:44.752 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:32:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:33:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:34:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:35:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:36:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:37:43.744 WARN  [Eureka-PeerNodesUpdater] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:37:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:38:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:39:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:40:44.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:41:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:42:43.848 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 3
+2019-Oct-16 03:42:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:43:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:44:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:45:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:46:44.755 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:47:43.745 WARN  [Eureka-PeerNodesUpdater] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:47:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:48:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:49:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:50:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:51:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:52:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:53:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:54:44.755 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:55:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:56:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:57:43.746 WARN  [Eureka-PeerNodesUpdater] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 03:57:43.848 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 3
+2019-Oct-16 03:57:44.754 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:58:44.755 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 03:59:44.755 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:00:44.755 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:01:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:02:44.755 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:03:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:04:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:05:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:06:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:07:43.747 WARN  [Eureka-PeerNodesUpdater] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 04:07:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:08:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:09:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:10:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:11:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:12:43.848 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 3
+2019-Oct-16 04:12:44.757 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:13:44.756 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:13:47.125 INFO  [http-nio-8081-exec-10] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/8b7bfb092608:auth-service:8082 with status DOWN (replication=false)
+2019-Oct-16 04:13:50.224 INFO  [http-nio-8081-exec-1] c.n.e.r.AbstractInstanceRegistry - Cancelled instance AUTH-SERVICE/8b7bfb092608:auth-service:8082 (replication=false)
+2019-Oct-16 04:13:51.659 INFO  [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application DISCOVERY-SERVICE with eureka with status DOWN
+2019-Oct-16 04:13:51.668 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-Oct-16 04:13:51.673 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shut down
+2019-Oct-16 04:13:51.680 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 04:13:51.699 INFO  [Thread-15] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Oct-16 04:13:51.699 INFO  [Thread-15] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Oct-16 04:45:29.894 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 04:45:29.895 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 04:45:29.968 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 04:45:34.412 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 04:45:35.788 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 04:45:36.702 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3183f26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 04:45:39.429 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 04:45:39.736 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 04:45:39.756 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 04:45:39.841 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 04:45:40.210 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 04:45:40.210 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 10183 ms
+2019-Oct-16 04:45:40.816 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 04:45:40.822 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 04:45:40.959 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1c39680d
+2019-Oct-16 04:45:44.087 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 04:45:44.620 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 04:45:44.634 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 04:45:45.496 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 04:45:45.496 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 04:45:47.247 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 04:45:47.253 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 04:45:48.449 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 04:45:52.106 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 04:45:52.378 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 04:45:52.378 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 04:45:52.502 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571201152490 with initial instances count: 0
+2019-Oct-16 04:45:52.875 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 04:45:52.895 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 04:45:53.169 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 04:45:53.175 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 04:45:53.265 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 04:45:54.045 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 04:45:54.092 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 04:45:54.127 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 04:45:54.129 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 04:45:54.290 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 04:45:54.296 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 04:45:54.298 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 04:45:54.299 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 04:45:54.300 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 04:45:54.414 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 04:45:54.574 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 04:45:54.588 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 04:45:54.604 INFO  [main] c.l.a.AppApplication - Started AppApplication in 30.743 seconds (JVM running for 32.559)
+2019-Oct-16 04:46:01.171 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Oct-16 04:46:01.171 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Oct-16 04:46:01.195 INFO  [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 23 ms
+2019-Oct-16 04:46:02.313 INFO  [http-nio-8081-exec-2] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/789b60ba10cb:auth-service:8082 with status UP (replication=false)
+2019-Oct-16 04:46:54.329 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:47:54.330 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:48:54.329 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:49:54.329 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:50:54.329 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:51:54.329 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:52:54.330 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:53:54.330 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:54:02.907 INFO  [http-nio-8081-exec-6] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/789b60ba10cb:auth-service:8082 with status DOWN (replication=false)
+2019-Oct-16 04:54:05.946 INFO  [http-nio-8081-exec-7] c.n.e.r.AbstractInstanceRegistry - Cancelled instance AUTH-SERVICE/789b60ba10cb:auth-service:8082 (replication=false)
+2019-Oct-16 04:54:07.552 INFO  [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application DISCOVERY-SERVICE with eureka with status DOWN
+2019-Oct-16 04:54:07.566 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-Oct-16 04:54:07.573 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shut down
+2019-Oct-16 04:54:07.583 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 04:54:07.596 INFO  [Thread-15] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Oct-16 04:54:07.597 INFO  [Thread-15] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-Oct-16 04:54:22.109 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.eureka'
+2019-Oct-16 04:54:22.110 ERROR [main] o.s.b.c.l.LoggingApplicationListener - Cannot set level 'ON' for 'com.netflix.discovery'
+2019-Oct-16 04:54:22.224 INFO  [main] c.l.a.AppApplication - No active profile set, falling back to default profiles: default
+2019-Oct-16 04:54:26.284 WARN  [main] o.s.b.a.e.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-Oct-16 04:54:27.700 INFO  [main] o.s.c.c.s.GenericScope - BeanFactory id=27878294-b362-3f48-b73a-477b5dc03d46
+2019-Oct-16 04:54:28.388 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8a903282] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Oct-16 04:54:30.749 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-Oct-16 04:54:30.959 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Oct-16 04:54:30.961 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-Oct-16 04:54:31.021 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-Oct-16 04:54:31.338 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2019-Oct-16 04:54:31.339 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 9030 ms
+2019-Oct-16 04:54:31.913 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 04:54:31.927 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 04:54:32.035 INFO  [main] c.n.c.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1f81aa00
+2019-Oct-16 04:54:35.499 INFO  [main] c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-Oct-16 04:54:36.032 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-Oct-16 04:54:36.038 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-Oct-16 04:54:36.758 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-Oct-16 04:54:36.758 INFO  [main] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-Oct-16 04:54:38.276 WARN  [main] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-Oct-16 04:54:38.284 INFO  [main] c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-Oct-16 04:54:39.194 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 04:54:41.565 INFO  [main] o.s.c.n.e.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-Oct-16 04:54:41.757 INFO  [main] c.n.d.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-Oct-16 04:54:41.771 INFO  [main] c.n.d.DiscoveryClient - Client configured to neither register nor query for data.
+2019-Oct-16 04:54:41.840 INFO  [main] c.n.d.DiscoveryClient - Discovery Client initialized at timestamp 1571201681833 with initial instances count: 0
+2019-Oct-16 04:54:41.991 INFO  [main] c.n.e.DefaultEurekaServerContext - Initializing ...
+2019-Oct-16 04:54:41.999 WARN  [main] c.n.e.c.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-Oct-16 04:54:42.068 INFO  [main] c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-Oct-16 04:54:42.072 INFO  [main] c.n.e.DefaultEurekaServerContext - Initialized
+2019-Oct-16 04:54:42.142 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-Oct-16 04:54:42.631 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application DISCOVERY-SERVICE with eureka with status UP
+2019-Oct-16 04:54:42.661 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2019-Oct-16 04:54:42.687 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-Oct-16 04:54:42.689 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-Oct-16 04:54:42.947 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2019-Oct-16 04:54:42.948 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2019-Oct-16 04:54:42.949 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-Oct-16 04:54:42.949 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-Oct-16 04:54:42.950 INFO  [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-Oct-16 04:54:43.057 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-Oct-16 04:54:43.080 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2019-Oct-16 04:54:43.095 INFO  [main] c.l.a.AppApplication - Started AppApplication in 26.619 seconds (JVM running for 28.11)
+2019-Oct-16 04:54:43.147 INFO  [Thread-13] o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-Oct-16 04:54:50.426 INFO  [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Oct-16 04:54:50.426 INFO  [http-nio-8081-exec-2] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-Oct-16 04:54:50.478 INFO  [http-nio-8081-exec-2] o.s.w.s.DispatcherServlet - Completed initialization in 52 ms
+2019-Oct-16 04:54:51.642 INFO  [http-nio-8081-exec-3] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/789b60ba10cb:auth-service:8082 with status UP (replication=false)
+2019-Oct-16 04:55:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:56:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:57:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:58:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 04:59:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 05:00:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 05:01:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 05:02:43.021 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-Oct-16 05:02:48.334 INFO  [http-nio-8081-exec-5] c.n.e.r.AbstractInstanceRegistry - Registered instance AUTH-SERVICE/789b60ba10cb:auth-service:8082 with status DOWN (replication=false)
+2019-Oct-16 05:02:51.404 INFO  [http-nio-8081-exec-8] c.n.e.r.AbstractInstanceRegistry - Cancelled instance AUTH-SERVICE/789b60ba10cb:auth-service:8082 (replication=false)
+2019-Oct-16 05:02:53.063 INFO  [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application DISCOVERY-SERVICE with eureka with status DOWN
+2019-Oct-16 05:02:53.067 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shutting down ...
+2019-Oct-16 05:02:53.071 INFO  [Thread-15] c.n.e.DefaultEurekaServerContext - Shut down
+2019-Oct-16 05:02:53.081 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Oct-16 05:02:53.094 INFO  [Thread-15] c.n.d.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-Oct-16 05:02:53.095 INFO  [Thread-15] c.n.d.DiscoveryClient - Completed shut down of DiscoveryClient
