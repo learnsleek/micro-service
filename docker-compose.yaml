@@ -10,8 +10,6 @@ services:
     restart: always
     ports:
      - "8081:8081"
-    networks: 
-     - my-network
 
   app-auth:
     build:
@@ -32,8 +30,44 @@ services:
     restart: always
     ports:
      - "8082:8082"
-    networks: 
-     - my-network
 
-  networks:
-    my-network :
+  app-core:
+    build:
+      context: ./micro-core
+      dockerfile: Dockerfile
+    container_name: core
+    environment:
+      eureka.client.serviceUrl.defaultZone: http://admin:pass@app-discovery:8081/eureka/
+    depends_on: 
+      - app-discovery
+    volumes:
+     - "./logfiles/micro-core:/logs"
+    restart: always
+    ports:
+     - "8084:8084"
+
+  app-func:
+    build:
+      context: ./micro-func
+      dockerfile: Dockerfile
+    container_name: func
+    depends_on: 
+      - app-discovery
+    volumes:
+     - "./logfiles/micro-func:/logs"
+    restart: always
+    ports:
+     - "8085:8085"
+
+  app-gateway:
+    build:
+      context: ./micro-gateway
+      dockerfile: Dockerfile
+    container_name: gateway
+    depends_on: 
+      - app-discovery
+    volumes:
+     - "./logfiles/micro-gateway:/logs"
+    restart: always
+    ports:
+     - "10000:10000"

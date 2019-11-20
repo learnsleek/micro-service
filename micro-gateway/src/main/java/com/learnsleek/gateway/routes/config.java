@@ -12,19 +12,23 @@ public class config {
     @Bean
     public RouteLocator gatewayRoutes(RouteLocatorBuilder builder) {
         return builder.routes()
-                .route(r -> r.path("/entity/**")
-                        .filters(f-> f.addRequestHeader(
-                                "Test", "Added New Header")
-                                .hystrix(config -> config.setName("entity"))
-                        )
-                        .uri("lb://core-service/")
-                        .id("core-entity"))
-                .route(r -> r.path("/core/**")
+                .route(r -> r.path("/core/")
                         .filters(f -> f.hystrix(config -> config.setName("core")))
                         .uri("lb://func-service/")
                         .id("func-service"))
+                .route(r -> r.path("/entity/get/")
+                        .uri("lb://core-service/")
+                        .id("core-service"))
                 //.route(r -> r.path("/test").filters(f -> f.addRequestHeader()).uri("").id(""))
                 .build();
     }
 
 }
+
+      /* .route(r -> r.path("/entity/**")
+                        .filters(f-> f.addRequestHeader(
+                                "Test", "Added New Header")
+                                .hystrix(config -> config.setName("entity"))
+                        )
+                        .uri("lb://core-service/")
+                        .id("core-entity"))*/
