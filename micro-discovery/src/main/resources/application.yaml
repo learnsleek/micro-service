@@ -8,13 +8,9 @@ eureka:
     fetchRegistry: false
     server:
       waitTimeInMsWhenSyncEmpty: 0
+      enableSelfPreservation: false
   instance:
-      preferIpAddress: true
-      #hostname: 127.0.0.1
-      statusPageUrlPath: ${server.servletPath}:${server.port}/info
-      healthCheckUrlPath: ${server.servletPath}:${server.port}/health
-      statusPageUrl: http://${eureka.hostname}:${server.port}/info
-      healthCheckUrl: http://${eureka.hostname}:${server.port}/health
-      homePageUrl: http://${eureka.hostname}:${server.port}/
+    preferIpAddress: true
+    hostname: ${springboot.app.name:discovery-service}
   serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
