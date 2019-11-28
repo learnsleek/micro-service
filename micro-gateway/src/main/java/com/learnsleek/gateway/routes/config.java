@@ -12,13 +12,15 @@ public class config {
     @Bean
     public RouteLocator gatewayRoutes(RouteLocatorBuilder builder) {
         return builder.routes()
-                .route(r -> r.path("/core/")
+                .route(r -> r.path("/core/**")
                         .filters(f -> f.hystrix(config -> config.setName("core")))
-                        .uri("lb://func-service/")
+                        .uri("lb://func-services/")
                         .id("func-service"))
-                .route(r -> r.path("/entity/get/")
-                        .uri("lb://core-service/")
-                        .id("core-service"))
+                .route(r -> r.path("/entity/get/**")
+                        .uri("lb://core-services/")
+                        .id("core-services"))
+                .route(r -> r.path("/entity/get1/**")
+                        .uri("lb://core-services/"))
                 //.route(r -> r.path("/test").filters(f -> f.addRequestHeader()).uri("").id(""))
                 .build();
     }

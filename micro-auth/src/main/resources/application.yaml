@@ -3,4 +3,16 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://admin:pass@${EUREKAHOST}:8081/eureka/
+      defaultZone: http://admin:pass@${EUREKAHOST}:9093/eureka/
+    healthcheck:
+      enabled: false
+    lease:
+      duration: 5
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+
+spring:
+    cloud:
+        config:
+            enabled: true
